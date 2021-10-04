@@ -7,6 +7,13 @@
 
 **shader math for geographic projections**
 
+![GitHub][github-badge]][github]
+![MIT License][]
+
+[github]: https://github.com/carbonplan/glsl-geo-projection
+[github-badge]: https://badgen.net/badge/-/github?icon=github&label
+[mit license]: https://badgen.net/badge/license/MIT/blue
+
 ## why
 
 The libraries [`d3-geo`](https://github.com/d3/d3-geo) and [`d3-geo-projection`](https://github.com/d3/d3-geo-projection) expose a wide diversity of [geographic map projections](https://en.wikipedia.org/wiki/Map_projection). While they are a perfect solution in JavaScript, in WebGL applications it's useful to have the same math available in GLSL. A specific use case is using the inverse equations to render raster data with  arbitrary map projections, as shown in this [neat demo](http://bl.ocks.org/mbostock/raw/5446416/e46a4985e7a851f10bc231d1e78681c457d94aad/). This library exposes both forward and inverse functions. 
