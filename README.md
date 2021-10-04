@@ -44,7 +44,7 @@ void main()
 `
 ```
 
-Names are identical to those in `d3-geo` and `d3-geo-projection`. The naming convention is that each projection has forward function with its name and an inverse function with its name followed by `Invert`. For example, `orthographic` and `orthographicInvert`.
+Names are identical to those in `d3-geo` and `d3-geo-projection`. The naming convention is that each projection has a forward function with its name and an inverse function with its name followed by `Invert`. For example, `orthographic` and `orthographicInvert`, or `mercator` and `mercatorInvert`.
 
 ## license
 
