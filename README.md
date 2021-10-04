@@ -7,7 +7,7 @@
 
 **shader math for geographic projections**
 
-![GitHub][github-badge]][github]
+[![GitHub][github-badge]][github]
 ![MIT License][]
 
 [github]: https://github.com/carbonplan/glsl-geo-projection
