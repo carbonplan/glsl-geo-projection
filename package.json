@@ -1,0 +1,27 @@
+{
+  "name": "glsl-geo-projection",
+  "version": "1.0.0",
+  "description": "shader math for geographic projections",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carbonplan/glsl-geo-projection.git"
+  },
+  "keywords": [
+    "glsl",
+    "shader",
+    "geo",
+    "projection",
+    "map",
+    "webgl"
+  ],
+  "author": "freeman-lab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carbonplan/glsl-geo-projection/issues"
+  },
+  "homepage": "https://github.com/carbonplan/glsl-geo-projection#readme"
+}
