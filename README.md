@@ -41,7 +41,6 @@ void main()
   vec2 coordinates = orthographicInvert(x, y);
   // ... remaining shader code...
 }
-
 `
 ```
 
