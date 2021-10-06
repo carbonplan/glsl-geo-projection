@@ -1,8 +1,0 @@
-export { naturalEarth1 } from './src/naturalEarth1'
-export { naturalEarth1Invert } from './src/naturalEarth1'
-export { orthographic } from './src/orthographic'
-export { orthographicInvert } from './src/orthographic'
-export { equirectangular } from './src/equirectangular'
-export { equirectangularInvert } from './src/equirectangular'
-export { mercator } from './src/mercator'
-export { mercatorInvert } from './src/mercator'

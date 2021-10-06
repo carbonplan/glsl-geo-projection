@@ -9,7 +9,7 @@ vec2 naturalEarth1(float lon, float lat)
 	float y = phi * (1.007226 + phi2 * (0.015085 + phi4 * (-0.044475 + 0.028874 * phi2 - 0.005916 * phi4)));
 	return vec2(x, y);
 }
-`
+`;
 
 export const naturalEarth1Invert = `
 vec2 naturalEarth1Invert(float x, float y)
@@ -31,4 +31,4 @@ vec2 naturalEarth1Invert(float x, float y)
 	float lambda = x / (0.8707 + phi2 * (-0.131979 + phi2 * (-0.013791 + phi2 * phi2 * phi2 * (0.003971 - 0.001529 * phi2))));
 	return vec2(degrees(lambda), degrees(phi));
 }
-`
+`;

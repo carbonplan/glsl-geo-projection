@@ -2,9 +2,12 @@
   "name": "glsl-geo-projection",
   "version": "1.0.0",
   "description": "shader math for geographic projections",
-  "main": "index.js",
+  "main": "dst/index.js",
+  "module": "dst/index.esm.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rimraf dst && microbundle --jsx React.createElement -f modern,es,cjs --jsxFragment React.Fragment",
+    "watch": "microbundle watch src/index.js -o dst/index.js --no-compress --jsx React.createElement -f modern,es,cjs --jsxFragment React.Fragment",
+    "format": "prettier --write README.md 'src/**/*.js'"
   },
   "repository": {
     "type": "git",
@@ -18,10 +21,18 @@
     "map",
     "webgl"
   ],
+  "files": [
+    "dst"
+  ],
   "author": "freeman-lab",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/carbonplan/glsl-geo-projection/issues"
   },
-  "homepage": "https://github.com/carbonplan/glsl-geo-projection#readme"
+  "homepage": "https://github.com/carbonplan/glsl-geo-projection#readme",
+  "devDependencies": {
+    "microbundle": "^0.13.0",
+    "prettier": "2.2.1",
+    "rimraf": "2.6.3"
+  }
 }

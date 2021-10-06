@@ -5,7 +5,7 @@ vec2 orthographic(float lon, float lat)
 	float phi = radians(lat);
 	return vec2(cos(phi) * sin(lambda), sin(phi));
 }
-`
+`;
 
 export const orthographicInvert = `
 vec2 orthographicInvert(float x, float y)
@@ -18,4 +18,4 @@ vec2 orthographicInvert(float x, float y)
   float phi = asin(y * sc / z);
   return vec2(degrees(lambda), degrees(phi));
 }
-`
+`;
