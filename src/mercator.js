@@ -3,7 +3,7 @@ vec2 mercator(float lon, float lat)
 {
 	float lambda = radians(lon);
 	float phi = radians(lat);
-	return vec2(lambda, log(tan((1.5707963267948966 + phi) / 2)));
+	return vec2(lambda, log(tan((1.5707963267948966 + phi) / 2.0)));
 }
 `;
 

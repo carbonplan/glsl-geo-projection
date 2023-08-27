@@ -3,7 +3,7 @@ vec2 equirectangular(float lon, float lat)
 {
 	float lambda = radians(lon);
 	float phi = radians(lat);
-	return vec2(cos(phi) * sin(lambda), sin(phi));
+	return vec2(lambda, phi);
 }
 `;
 
