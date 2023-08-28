@@ -1,6 +1,6 @@
 {
   "name": "glsl-geo-projection",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "shader math for geographic projections",
   "main": "dst/index.js",
   "module": "dst/index.esm.js",
