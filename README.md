@@ -1,18 +1,18 @@
-<img
-  src='https://carbonplan-assets.s3.amazonaws.com/monogram/dark-small.png'
-  height='48'
-/>
+<p align="left" >
+<a href='https://carbonplan.org'>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://carbonplan-assets.s3.amazonaws.com/monogram/light-small.png">
+  <img alt="CarbonPlan monogram." height="48" src="https://carbonplan-assets.s3.amazonaws.com/monogram/dark-small.png">
+</picture>
+</a>
+</p>
 
 # carbonplan / glsl-geo-projection
 
 **shader math for geographic projections**
 
-[![GitHub][github-badge]][github]
-![MIT License][]
-
-[github]: https://github.com/carbonplan/glsl-geo-projection
-[github-badge]: https://badgen.net/badge/-/github?icon=github&label
-[mit license]: https://badgen.net/badge/license/MIT/blue
+![NPM Version](https://img.shields.io/npm/v/glsl-geo-projection)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## why
 
@@ -48,4 +48,4 @@ Names are identical to those in `d3-geo` and `d3-geo-projection`. The naming con
 
 ## license
 
-All the original code in this repository is [MIT](https://choosealicense.com/licenses/mit/) licensed. The library is based closely on [d3-geo](https://github.com/d3/d3-geo/blob/main/LICENSE) and [d3-geo-projection](https://github.com/d3/d3-geo-projection/blob/main/LICENSE). We request that you please provide attribution if reusing any of our digital content (graphics, logo, copy, etc.).
+All the original code in this repository is [MIT](https://choosealicense.com/licenses/mit/)-licensed. The library is based closely on [d3-geo](https://github.com/d3/d3-geo/blob/main/LICENSE) and [d3-geo-projection](https://github.com/d3/d3-geo-projection/blob/main/LICENSE). We request that you please provide attribution if reusing any of our digital content (graphics, logo, copy, etc.).
